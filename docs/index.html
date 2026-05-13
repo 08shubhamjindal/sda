@@ -365,7 +365,7 @@ let filter = 'today';
 let _authToken = sessionStorage.getItem('authToken') || '';
 
 // Backend API base URL — empty = same origin (local/VM), set for GitHub Pages
-// window.API_BASE = 'http://<YOUR_VM_IP>:8080';
+window.API_BASE = 'http://140.245.239.49:8080';
 const API_BASE = window.API_BASE || '';
 
 function apiUrl(path) {
